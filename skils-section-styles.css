@@ -1,0 +1,32 @@
+#skills-section {
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  align-items: center;
+  flex-direction: column;
+  gap: 26px;
+}
+
+#skills-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#skills-container:hover {
+  transform: scale(1.5); /* Slight zoom effect */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adding a shadow for highlighting */
+}
+
+#skills-heading {
+  color: #457b9d;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0;
+}
+
+#skills-subheading {
+  font-size: 48px;
+  margin: 0;
+}

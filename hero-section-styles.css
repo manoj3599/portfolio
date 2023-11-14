@@ -1,0 +1,78 @@
+#hero-section{
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 164px;
+    padding-bottom: 130px;
+    gap: 54px;
+}
+#hello-text{
+    color: #457b9D;
+    font-size: 24PX;
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+#name-heading{
+    font-size: 48px;
+    margin: 0;
+    margin-bottom: 14px;
+}
+#hero-section-about-me{
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 20px;
+    width: 651px;
+    text-align: justify;
+    margin-bottom: 45px;
+}
+#image-background{
+    border-radius: 40px;
+    background: #457B9D;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 479px;
+    height: 390px;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#image-background:hover{
+    transform: scale(1.5); /* Slight zoom effect */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adding a shadow for highlighting */
+    background: 457B9D;
+}
+
+#hero-image{
+ 
+    width: 405px;
+    height: 524.758px;
+    position: absolute;
+    top: -135px;
+    left: 38px;
+}
+#hero-section-buttons-container{
+  gap: 20px;
+    display: flex;
+}
+.hero-section-button {
+    width: 274px;
+    height: 64px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #457b9d;
+    background: rgba(69, 123, 157, 0.10);
+    color: #457B9D;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hero-section-button:hover{
+    transform: scale(1.5); /* Slight zoom effect */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adding a shadow for highlighting */
+}
+
+.hero-section-button.active{
+    border: none;
+    background: #457B9D;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    border-radius: 5px;
+    
+}

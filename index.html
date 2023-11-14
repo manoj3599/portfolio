@@ -1,0 +1,157 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width ,intial">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"></link>
+        <link href="contact-me.css" rel="stylesheet" />
+        <link href="header-styles.css" rel="stylesheet" />
+        <link href="hero-section-styles.css" rel="stylesheet" />
+        <link href="about-me-styles.css" rel="stylesheet" />
+        <link href="skils-section-styles.css" rel="stylesheet" />
+        <link href="project-section-styles.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Sora&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <h1 id="heading">Manoj</h1>
+            <div id="navigation-buttons-container">
+                <a class="navigation-a active">Home</a>
+                <a class="navigation-a">About</a>
+                <a class="navigation-a">Skill</a>
+                <a class="navigation-a">Project</a>
+                <a class="navigation-a">Contact</a>
+                
+
+
+            </div>
+
+        </div>
+        <div id="hero-section">
+            <div id="hero-information-section">
+                <h5 id="hello-text">Hi Everyone, I am</h5>
+                <h1 id="name-heading">Manoj Nayak</h1>
+                <p id="hero-section-about-me">Manoj Nayak, aspiring Full Stack Developer dedicated to mastering the art of web development. Passionate about creating dynamic digital experiences through code</p>
+                <div id="hero-section-buttons-container">
+                    <button class="hero-section-button active">Download CV</button>
+                    <button class="hero-section-button">Explore More</button>
+                </div>
+            </div>
+            <div id="hero-image-section">
+                <div id="image-background"><img id="hero-image" src="./file/x.png">
+                </div>
+                
+            </div>
+
+        </div>
+        <div id="about-me-section">
+            <img id="about-me-section-image" src="https://t4.ftcdn.net/jpg/03/13/40/45/360_F_313404541_e9YZ3pht6oEEkMXuhxTboqXA2B2ShNnC.jpg"/>
+            <div id="about-me-section-description-container">
+                <h5 id="about-me-heading">About</h5>
+                <h1 id="about-me-subheading">About me ?</h1>
+                <p id="about-me-description">My Self Manoj V Nayak, a dedicated B.E. graduate, is charting a path as a full stack developer. Fueled by a passion for coding, he's mastering both front-end and back-end intricacies. With a hunger for innovation and a name that echoes determination, Manoj is poised to make a mark in the ever-evolving tech landscape.</p>
+            </div>
+        </div>
+        <div id="skills-section">
+            <h5 id="skills-heading">Skills</h5>
+            <h1 id="skills-subheading">What I am capable of?</h1>
+            <div id="skills-container">
+                <img width="102px" height="107px" class="Skills-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png"/>
+                <img width="91px" height="101px" class="Skills-image" src="data:image/png;base64,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"/>
+                <img width="101px" height="101px" class="Skills-image" src="data:image/png;base64,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"/>
+                <img width="134px" height="89px" class="Skills-image" src="https://vistaran-tech.s3.ap-south-1.amazonaws.com/wp-content/uploads/2022/05/13104926/nodejs-logo.png"/>
+                <img width="166px" height="97px" class="Skills-image" src="data:image/png;base64,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"/>
+            </div>
+
+        </div>
+        <div id="projects-section">
+            <h5 id="projects-secton-heading">Projects</h5>
+            <h1 id="projects-section-subheading">What I have made?</h1>
+            <div id="project-cards-container">
+                <div class="project-card">
+                    <img class="project-card-image" src="https://htmlcodex.com/wp-content/uploads/2020/09/developer-portfolio-template.jpg"/>
+                    <div class="project-crd-description-container">
+                    <h1 class="project-card-heading">WP Project Manager</h1>
+                    <p class="project-card-description">The Kanban board feature will let your team lead set a task according to its status</p>
+                    <div class="project-card-tags-container">
+                        <h5 class="project-card-tag">Figma</h5>
+                        <h5 class="project-card-tag">Github</h5>
+
+                    </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img class="project-card-image" src="https://cdn.wedevs.com/uploads/2020/10/WP-project-manager-1024x639.png"/>
+                    <div class="project-crd-description-container">
+                    <h1 class="project-card-heading">Portfolio Website Design</h1>
+                    <p class="project-card-description">Crafting a sleek and intuitive portfolio website, merging creativity</p>
+                    <div class="project-card-tags-container">
+                        <h5 class="project-card-tag">Figma</h5>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img class="project-card-image" src="https://d2k1ftgv7pobq7.cloudfront.net/meta/u/res/images/create-a-board/2a6cc1bc24e782bb4dd4de4c3120054d/01.png"/>
+                    <div class="project-crd-description-container">
+                    <h1 class="project-card-heading">Trello</h1>
+                    <p class="project-card-description">You can view all of the projects and their status in a single view.</p>
+                    <div class="project-card-tags-container">
+                        <h5 class="project-card-tag">Figma</h5>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img class="project-card-image" src="https://luna1.co/179c58.png"/>
+                    <div class="project-crd-description-container">
+                    <h1 class="project-card-heading">Asana</h1>
+                    <p class="project-card-description">Asana has an internal messaging section, so you can see all the conversations related to the project.</p>
+                    <div class="project-card-tags-container">
+                        <h5 class="project-card-tag">Figma</h5>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img class="project-card-image" src="https://htmlcodex.com/wp-content/uploads/2020/09/developer-portfolio-template.jpg"/>
+                    <div class="project-crd-description-container">
+                    <h1 class="project-card-heading">Portfolio Website Design</h1>
+                    <p class="project-card-description">Crafting a sleek and intuitive portfolio website, merging creativity</p>
+                    <div class="project-card-tags-container">
+                        <h5 class="project-card-tag">Figma</h5>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img class="project-card-image" src="https://htmlcodex.com/wp-content/uploads/2020/09/developer-portfolio-template.jpg"/>
+                    <div class="project-crd-description-container">
+                    <h1 class="project-card-heading">Portfolio Website Design</h1>
+                    <p class="project-card-description">Crafting a sleek and intuitive portfolio website, merging creativity</p>
+                    <div class="project-card-tags-container">
+                        <h5 class="project-card-tag">Figma</h5>
+                    </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div id="contact-me-section">
+            <h5 id="contact-me-heading">Contacts</h5>
+            <h1 id="contact-me-subheading">Get in Touch</h1>
+            <p id="email">manojvnayak123@gmail.com</p>
+            <div id="profile-icons-container">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+
+            </div>
+            <p id="copyright">Copyright © 2023 .Design & Developed By Manoj V Nayak</p>
+        </div>
+
+    </body>
+</html>
